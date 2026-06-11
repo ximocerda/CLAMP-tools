@@ -17,6 +17,14 @@ The CLAMP dataset is available through Zenodo:
 
 https://doi.org/10.5281/zenodo.20555985
 
+## Authors
+
+Marta C. Mora  
+Noora Hamzah Shadahan Al-Owaidi  
+Bàrbara Pellicer-Coves  
+Jose V. García-Ortiz  
+Joaquín Cerdà-Boluda
+
 ## License
 
 MIT License
