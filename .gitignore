@@ -216,3 +216,16 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# CLAMP dataset files
+/raw_data/
+/processed_data/
+/exports/
+/CLAMP_DATASET/
+
+# Compressed dataset files
+*.zip
+
+# Operating system metadata
+.DS_Store
+Thumbs.db
