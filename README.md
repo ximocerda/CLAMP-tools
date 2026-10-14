@@ -34,9 +34,10 @@ processed_data.zip
 README.md
 CLAMP_dataset_manifest.csv
 CLAMP_file_manifest.csv
+CLAMP_data_dictionary.csv
 ```
 
-The notebook mainly uses the `processed_data/` folder extracted from `processed_data.zip`. The `raw_data.zip` archive contains the original MATLAB recordings. The manifest files provide dataset-level and file-level inventories to support completeness checking, file verification, and reproducibility.
+The notebook mainly uses the `processed_data/` folder extracted from `processed_data.zip`. The `raw_data.zip` archive contains the original MATLAB recordings. The manifest files provide dataset-level and file-level inventories to support completeness checking, file verification, and reproducibility. The data dictionary provides field definitions for the CSV and JSON files included in the dataset.
 
 ## Installation
 
@@ -60,7 +61,7 @@ jupyterlab
 
 1. Download the dataset ZIP files from Zenodo.
 2. Download or clone this GitHub repository.
-3. Place `processed_data.zip` in the same directory as `CLAMP_dataset_explorer.ipynb`. Optionally, also place `raw_data.zip` and the manifest files in the same directory for completeness checking.
+3. Place `processed_data.zip` in the same directory as `CLAMP_dataset_explorer.ipynb`. Optionally, also place `raw_data.zip`, the manifest files, and `CLAMP_data_dictionary.csv` in the same directory for completeness checking and field interpretation.
 4. Run the notebook.
 
 Before extraction, the folder may look like this:
@@ -71,6 +72,7 @@ raw_data.zip
 processed_data.zip
 CLAMP_dataset_manifest.csv
 CLAMP_file_manifest.csv
+CLAMP_data_dictionary.csv
 ```
 
 After extraction, the expected structure is:
@@ -81,6 +83,7 @@ raw_data/
 processed_data/
 CLAMP_dataset_manifest.csv
 CLAMP_file_manifest.csv
+CLAMP_data_dictionary.csv
 ```
 
 The notebook checks whether the dataset folders are available and extracts the ZIP files if needed.
