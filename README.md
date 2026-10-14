@@ -3,7 +3,7 @@
 Companion software tools for the **CLAMP dataset**: exploration, visualization, and export utilities for multimodal hand posture and grasp-phase analysis.
 
 Dataset DOI:
-https://doi.org/10.5281/zenodo.20555985
+https://doi.org/10.5281/zenodo.20555984
 
 ## Overview
 
@@ -24,7 +24,7 @@ README.md
 
 The CLAMP dataset is available through Zenodo:
 
-https://doi.org/10.5281/zenodo.20555985
+https://doi.org/10.5281/zenodo.20555984
 
 The dataset is distributed separately from this software repository. It includes two main folders:
 
@@ -142,7 +142,7 @@ metadata.json
 If you use this dataset or the accompanying software tools, please cite the CLAMP dataset and the associated article.
 
 Dataset DOI:
-https://doi.org/10.5281/zenodo.20555985
+https://doi.org/10.5281/zenodo.20555984
 
 ## License
 
